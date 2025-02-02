@@ -46,7 +46,7 @@
 		#Remove the fish's panic pathfinder. This will cause fish to not run away.
 		remove_panic = false
 		#Remove the fish's AI task to avoid players.
-		remove_avoid_player = false
+		remove_avoid_player = true
 		#Remove the fish's AI task to follow a leader fish to act as a group of fish.
 		remove_follow_leader = false
 		#Remove the fish's AI task to puff up when entities are nearby
@@ -119,5 +119,5 @@
 		#Remove the sheep's random stroll AI task. This causes sheep to no longer walk around randomly.
 		remove_stroll = false
 		#Remove the sheep's eat block AI task. This causes sheep to no longer eat grass, and thus be unable to regenerate their wool.
-		remove_eat_block = false
+		remove_eat_block = true
 
