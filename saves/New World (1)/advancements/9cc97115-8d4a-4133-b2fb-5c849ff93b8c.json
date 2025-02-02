@@ -5,9 +5,99 @@
     },
     "done": true
   },
+  "mcwfences:recipes/acacia": {
+    "criteria": {
+      "has_acacia": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2025-02-02 17:05:08 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/birch": {
+    "criteria": {
+      "has_birch": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/dark_oak": {
+    "criteria": {
+      "has_dark_oak": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2025-02-02 16:53:07 +0100"
+    },
+    "done": false
+  },
+  "mcwfences:recipes/sandstone": {
+    "criteria": {
+      "has_sand": "2025-02-02 17:05:05 +0100"
     },
     "done": true
   },
@@ -17,9 +107,33 @@
     },
     "done": false
   },
-  "betterdungeons:root": {
+  "create:root": {
     "criteria": {
-      "always": "2025-02-02 16:53:08 +0100"
+      "0": "2025-02-02 16:53:06 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2025-02-02 17:05:08 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/stone": {
+    "criteria": {
+      "has_stone": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2025-02-02 17:05:05 +0100"
     },
     "done": true
   },
@@ -29,17 +143,29 @@
     },
     "done": true
   },
-  "create:root": {
+  "mcwfences:recipes/warped": {
     "criteria": {
-      "0": "2025-02-02 16:53:06 +0100"
+      "has_warped": "2025-02-02 17:05:05 +0100"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "mcwfences:recipes/bamboo": {
     "criteria": {
-      "minecraft:snowy_taiga": "2025-02-02 16:53:07 +0100"
+      "has_bamboo": "2025-02-02 17:05:05 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "ironfurnaces:coal": {
+    "criteria": {
+      "rainbowcoal": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
   },
   "DataVersion": 2975
 }
