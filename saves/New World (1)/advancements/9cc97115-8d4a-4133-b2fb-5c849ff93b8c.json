@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-02-02 17:16:33 +0100"
+    },
+    "done": true
+  },
   "mcwfences:recipes/deepslate": {
     "criteria": {
       "has_deepslate": "2025-02-02 17:05:05 +0100"
@@ -62,6 +68,12 @@
   "byg:root": {
     "criteria": {
       "tick": "2025-02-02 17:05:08 +0100"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2025-02-02 17:16:28 +0100"
     },
     "done": true
   },

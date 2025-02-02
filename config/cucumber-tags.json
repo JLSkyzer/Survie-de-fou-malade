@@ -23,7 +23,7 @@
   "forge:dusts/niter": "null",
   "forge:ingots/graphite": "null",
   "forge:ingots/chrome": "null",
-  "forge:dusts/sulfur": "null",
+  "forge:dusts/sulfur": "mekanism:dust_sulfur",
   "forge:ingots/mithril": "null",
   "forge:ingots/aluminum": "alltheores:aluminum_ingot",
   "forge:ingots/uranium": "alltheores:uranium_ingot",

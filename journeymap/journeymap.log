@@ -1,13 +1,13 @@
-[17:04:27] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[17:04:27] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[17:04:27] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[17:04:27] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[17:04:27] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[17:04:27] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[17:04:27] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[17:04:28] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:04:28] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[17:04:28] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
+[17:15:54] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[17:15:54] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[17:15:54] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[17:15:54] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[17:15:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[17:15:54] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[17:15:54] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[17:15:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[17:15:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[17:15:54] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
 forge: 40.3.3
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -25,34 +25,51 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.8, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.8, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.8, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[17:04:28] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[17:04:28] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 247ms
-[17:04:31] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[17:04:31] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[17:04:31] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[17:04:31] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: D:\MinecraftCurseforge\Instances\Survie%20de%20fou%20malade\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
-[17:04:31] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[17:04:31] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 18.35ms
-[17:05:00] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[17:05:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/reindeer_4.png
-[17:05:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/badger_american.png
-[17:05:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/deer_2.png
-[17:05:08] [Render thread/INFO] [ChatLog] 
-[17:05:08] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:05:08] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[17:05:08] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[17:05:08] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[17:05:08] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\New World (1)\waypoints
-[17:05:09] [Render thread/INFO] [JourneymapClient] Mapping started in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\New World (1)\overworld. Memory: 3304MB total, 1475MB free 
-[17:05:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/squirrel_albino.png
-[17:05:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[17:05:31] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\mp\offline\minecraft:overworld
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[17:15:54] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[17:15:54] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 195.85ms
+[17:15:58] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[17:15:58] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[17:15:58] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[17:15:58] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: D:\MinecraftCurseforge\Instances\Survie%20de%20fou%20malade\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
+[17:15:58] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[17:15:58] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 16.59ms
+[17:16:22] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mars (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~mars.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mars (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~mars.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mercury_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~mercury_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mercury_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~mercury_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~earth_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~earth_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~earth_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~earth_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~moon_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~moon_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~moon_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~moon_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mars_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~mars_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mars_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~mars_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~glacio (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~glacio.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~glacio (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~glacio.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~glacio_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~glacio_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~glacio_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~glacio_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~venus (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~venus.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~venus (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~venus.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~venus_orbit (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~venus_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~venus_orbit (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~venus_orbit.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~moon (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~moon.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~moon (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~moon.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mercury (Initialized) Setting config file to version "5.9.8": journeymap.server.beyond_earth~mercury.config
+[17:16:26] [Server thread/INFO] [PropertiesBase] beyond_earth~mercury (Valid) Creating config file: D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\server\5.9\journeymap.server.beyond_earth~mercury.config
+[17:16:31] [Render thread/INFO] [ChatLog] 
+[17:16:31] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[17:16:31] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[17:16:32] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\New World (1)\waypoints
+[17:16:32] [Render thread/INFO] [JourneymapClient] Mapping started in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\New World (1)\overworld. Memory: 5336MB total, 3347MB free 
+[17:16:34] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[17:16:34] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[17:16:50] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\mp\offline\minecraft:overworld
