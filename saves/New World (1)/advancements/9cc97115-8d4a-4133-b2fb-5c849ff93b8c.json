@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "pfm:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-02-02 17:59:43 +0100"
+    },
+    "done": true
+  },
   "mcwfences:recipes/jungle": {
     "criteria": {
       "has_jungle": "2025-02-02 17:05:05 +0100"
@@ -128,6 +134,12 @@
   "mcwfences:recipes/nether": {
     "criteria": {
       "has_nether_brick": "2025-02-02 17:05:05 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2025-02-02 18:00:17 +0100"
     },
     "done": true
   },

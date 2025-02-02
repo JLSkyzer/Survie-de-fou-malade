@@ -1,5 +1,5 @@
-./logs/*
-./crashreport/*
+/logs
+/crashreport
 /lightspeed-cache
 /journeymap/data
 /essential
