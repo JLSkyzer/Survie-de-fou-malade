@@ -1,3 +1,4 @@
 ./logs/*
 ./crashreport/*
 /lightspeed-cache
+/journeymap/data
