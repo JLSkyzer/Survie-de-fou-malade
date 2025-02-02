@@ -19,7 +19,7 @@
 		fpsDisplayGravity = "LEFT"
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
-		fpsDisplayShadow = true
+		fpsDisplayShadow = false
 		#Configure FPS Display margin
 		#Give some space between corner and text
 		#Range: 0 ~ 48
@@ -32,7 +32,7 @@
 		#Sets culling mode
 		#Reduces number of visible faces when the neighbor blocks are leaves
 		#Allowed Values: ALL, OFF
-		leavesCulling = "ALL"
+		leavesCulling = "OFF"
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
@@ -44,28 +44,28 @@
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 16384
+				cullingMaxDistanceX = 4096
 				#Toggles distance culling for entities, doesn't affect monsters culling
 				#Check the options below
 				enable = true
+				#Configure vertical max distance before cull entities
+				#Value is raw
+				#Range: 0 ~ 512
+				cullingMaxDistanceY = 32
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
 				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
-				whitelist = []
-				#Configure vertical max distance before cull entities
-				#Value is raw
-				#Range: 0 ~ 512
-				cullingMaxDistanceY = 64
+				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*"]
 
 				[embeddiumplus.performance.distanceCulling.entities.monsters]
 					#Configure horizontal max distance before cull monster entities
 					#Value is squared, default was 64^2 (or 64x64)
 					#Range: > 0
-					cullingMaxDistanceX = 10816
+					cullingMaxDistanceX = 16384
 					#Toggles distance culling for monsters (or hostile entities, whatever you want to call it), doesn't affect neutral/pacific entities
 					#Check the options above
-					enable = true
+					enable = false
 					#Configure vertical max distance before cull monster entities
 					#Value is raw
 					#Range: 0 ~ 512
@@ -80,19 +80,19 @@
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 9216
+				cullingMaxDistanceX = 4096
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
 				enable = true
+				#Configure vertical max distance before cull Block entities
+				#Value is raw
+				#Range: 0 ~ 512
+				cullingMaxDistanceY = 32
 				#List of all Block Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:chest" - Ignores chests only
 				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
-				whitelist = []
-				#Configure vertical max distance before cull Block entities
-				#Value is raw
-				#Range: 0 ~ 512
-				cullingMaxDistanceY = 48
+				whitelist = ["waterframes:*"]
 
 		[embeddiumplus.performance.fastModels]
 			#Toggles FastBeds feature
@@ -106,7 +106,7 @@
 		onTileEntities = true
 		#Configure how fast light whould be updated
 		#Allowed Values: OFF, SLOW, NORMAL, FAST, SUPERFAST, FASTESTS, REALTIME
-		updateSpeed = "FAST"
+		updateSpeed = "REALTIME"
 		#Toggle if Entities should have dynamic lights
 		onEntities = true
 		updateOnlyOnPositionChange = true
@@ -130,7 +130,7 @@
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
 		#Range: 0 ~ 512
-		cloudsHeight = 128
+		cloudsHeight = 192
 		#Do not show me your name
 		#disables nametag rendering for players and entities
 		disableNameTagRendering = false

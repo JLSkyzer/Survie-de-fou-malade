@@ -151,6 +151,27 @@ to make editing this file much easier.
 				}
 			]
 		},
+		"car:gas_station_attendant": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"fossil:archeologist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"fossil:paleontologist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"minecraft:armorer": {
 			"1": [],
 			"2": [],

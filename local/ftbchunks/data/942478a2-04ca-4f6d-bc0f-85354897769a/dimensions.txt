@@ -1,1 +1,2 @@
 minecraft:overworld
+fossil:treasure_room

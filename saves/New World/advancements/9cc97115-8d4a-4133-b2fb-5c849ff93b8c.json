@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "fossil:fossil/dino_eggs": {
+    "criteria": {
+      "requirement": "2025-02-02 18:38:19 +0100"
+    },
+    "done": true
+  },
   "pfm:grant_book_on_first_join": {
     "criteria": {
       "tick": "2025-02-02 18:02:41 +0100"
@@ -41,15 +47,21 @@
     },
     "done": true
   },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-02-02 18:02:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:slime": "2025-02-02 18:14:00 +0100"
     },
     "done": true
   },
-  "lootr:root": {
+  "mcwfences:recipes/deepslate": {
     "criteria": {
-      "always_true": "2025-02-02 18:02:59 +0100"
+      "has_deepslate": "2025-02-02 18:02:41 +0100"
     },
     "done": true
   },
@@ -61,12 +73,6 @@
       "minecraft:zombie": "2025-02-02 18:15:35 +0100"
     },
     "done": false
-  },
-  "mcwfences:recipes/deepslate": {
-    "criteria": {
-      "has_deepslate": "2025-02-02 18:02:41 +0100"
-    },
-    "done": true
   },
   "mcwfences:recipes/quartz": {
     "criteria": {
@@ -86,15 +92,15 @@
     },
     "done": true
   },
-  "aquamirae:adventure/abyssal_armor": {
-    "criteria": {
-      "abyssal_armor": "2025-02-02 18:07:17 +0100"
-    },
-    "done": true
-  },
   "mcwfences:recipes/spruce": {
     "criteria": {
       "has_spruce": "2025-02-02 18:02:41 +0100"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/abyssal_armor": {
+    "criteria": {
+      "abyssal_armor": "2025-02-02 18:07:17 +0100"
     },
     "done": true
   },
@@ -140,6 +146,12 @@
     },
     "done": true
   },
+  "fossil:fossil/ancient_clock": {
+    "criteria": {
+      "ancient_clock": "2025-02-02 18:46:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2025-02-02 16:37:21 +0100"
@@ -149,6 +161,18 @@
   "mcwfences:recipes/sandstone": {
     "criteria": {
       "has_sand": "2025-02-02 18:02:41 +0100"
+    },
+    "done": true
+  },
+  "fossil:fossil/ancient_sword": {
+    "criteria": {
+      "ancient_helmet": "2025-02-02 18:46:14 +0100"
+    },
+    "done": true
+  },
+  "fossil:fossil/kill_anu": {
+    "criteria": {
+      "requirement": "2025-02-02 18:37:06 +0100"
     },
     "done": true
   },
@@ -187,6 +211,12 @@
       "tick": "2025-02-02 18:02:59 +0100"
     },
     "done": true
+  },
+  "fossil:fossil/all_eggs": {
+    "criteria": {
+      "alligator_gar": "2025-02-02 18:38:28 +0100"
+    },
+    "done": false
   },
   "mcwfences:recipes/stone": {
     "criteria": {
