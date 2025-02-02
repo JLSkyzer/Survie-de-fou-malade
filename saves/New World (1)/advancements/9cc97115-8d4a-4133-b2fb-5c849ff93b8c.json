@@ -1,0 +1,45 @@
+{
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "betteranimalsplus:bad_fox": {
+    "criteria": {
+      "no_bam": "2025-02-02 16:53:07 +0100"
+    },
+    "done": false
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2025-02-02 16:53:08 +0100"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-02-02 16:53:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_taiga": "2025-02-02 16:53:07 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
