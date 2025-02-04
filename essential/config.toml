@@ -77,9 +77,9 @@
 		show_current_server = false
 
 	[quality_of_life.zoom]
-		smooth_zoom_animation = false
+		smooth_zoom_animation = true
 		toggle_to_zoom = false
-		smooth_camera_when_zoomed = true
+		smooth_camera_when_zoomed = false
 
 	[quality_of_life.screenshots]
 		vanilla_screenshot_message = false
