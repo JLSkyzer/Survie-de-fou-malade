@@ -1,7 +1,7 @@
 
 ["Sampling multiple"]
 	#Range: 0.0 ~ 1.0
-	multiple = 0.5
+	multiple = 1.0
 
 ["Culling Map update delay"]
 	#Range: 0 ~ 10

@@ -1,14 +1,5 @@
-# Default config file that will be copied to world's serverconfig/ftbessentials.snbt location
-# Copy values you wish to override in here
-# Example:
-# 
-# {
-# 	misc: {
-# 		enderchest: {
-# 			enabled: false
-# 		}
-# 	}
-# }
+# FTB Essentials config file
+# If you're a modpack maker, edit defaultconfigs/ftbessentials-server.snbt instead
 
 {
 	# Admin commands for cheating and moderation
@@ -97,7 +88,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 30
+			cooldown: 10
 			
 			# Default: true
 			enabled: true
@@ -130,7 +121,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.max
 			# Default: 1
 			# Range: 0 ~ 2147483647
-			max: 1
+			max: 100
 			
 			# Warm-up time before /home command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.home.warmup
@@ -154,7 +145,7 @@
 			# /rtp max distance from spawn point
 			# Default: 100000
 			# Range: 0 ~ 30000000
-			max_distance: 100000
+			max_distance: 1000000
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -164,13 +155,13 @@
 			# /rtp min distance from spawn point
 			# Default: 1000
 			# Range: 0 ~ 30000000
-			min_distance: 1000
+			min_distance: 10000
 			
 			# Warm-up time before /rtp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.rtp.warmup
 			# Default: 0
 			# Range: 0 ~ 604800
-			warmup: 0
+			warmup: 3
 		}
 		spawn: {
 			# Cooldown between /spawn commands (in seconds)
