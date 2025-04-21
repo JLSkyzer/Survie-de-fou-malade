@@ -11,7 +11,7 @@
 	#Range: 0.0 ~ 3.4028234663852886E38
 	baseSoundVolume = 1.0
 	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
-	opaqueTransmitters = false
+	opaqueTransmitters = true
 	#Allow sneak + scroll to change item modes.
 	allowModeScroll = true
 	#Align HUD (text) with left (if true) or right (if false)
@@ -34,9 +34,9 @@
 		#Show particles when machines active.
 		machineEffects = true
 		#How far (in blocks) from the player radiation particles can spawn.
-		radiationParticleRadius = 30
+		radiationParticleRadius = 20
 		#How many particles spawn when rendering radiation effects (scaled by radiation level).
-		radiationParticleCount = 100
+		radiationParticleCount = 50
 		#Show bolts when the Magnetic Attraction Unit is pulling items.
 		magneticAttraction = true
 		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.

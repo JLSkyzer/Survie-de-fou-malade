@@ -1,0 +1,6 @@
+#3F84B7 minecraft:grass_block
+#099C69 storagenetwork:inventory
+#06AD6F storagenetwork:master
+#C8759C storagenetwork:request
+#3C87BC storagenetwork:storage_kabel
+#EA564E ironchest:trapped_iron_chest
