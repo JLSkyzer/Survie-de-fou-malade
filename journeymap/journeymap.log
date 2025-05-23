@@ -1,12 +1,12 @@
-[17:22:02] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[17:22:02] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[17:22:02] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[17:22:02] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[17:22:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[17:22:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[17:22:02] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[17:22:02] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:22:02] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
+[15:39:08] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:39:08] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:39:08] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[15:39:08] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:39:08] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[15:39:08] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[15:39:08] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[15:39:08] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:39:09] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.9.8, built with forge 1.18.2-40.1.86
 forge: 40.3.3
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -19,246 +19,99 @@ Features:
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.8, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-80, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.8, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-259, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.8, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-259, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.8, zoomLevel=2, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.8, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.8, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.8, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.8, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[17:22:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[17:22:02] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 502.08ms
-[17:22:07] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[17:22:07] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[17:22:07] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[17:22:07] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: D:\MinecraftCurseforge\Instances\Survie%20de%20fou%20malade\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
-[17:22:07] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[17:22:07] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 19.46ms
-[17:25:30] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[17:25:58] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[17:25:58] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\waypoints
-[17:25:58] [Render thread/INFO] [JourneymapClient] Mapping started in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\overworld. Memory: 6560MB total, 2279MB free 
-[17:26:03] [Render thread/INFO] [ChatLog] 
-[17:26:03] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
-[17:26:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/drygmy_brown.png
-[17:26:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/thornshell.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:26:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
-[17:26:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/roadrunner.png
-[17:26:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/hammerhead_shark.png
-[17:26:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/flying_fish_yellow.png
-[17:26:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/flying_fish_purple.png
-[17:26:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:27:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:27:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:27:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
-[17:27:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
-[17:27:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/barracuda.png
-[17:27:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
-[17:27:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_medium.png
-[17:27:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_small.png
-[17:27:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_snowflake.png
-[17:28:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_dragon.png
-[17:28:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
-[17:28:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/octopus_giant_pacific.png
-[17:28:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_conger.png
-[17:28:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[17:29:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/coyote.png
-[17:29:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/mimic_octopus.png
-[17:29:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/octopus_common.png
-[17:29:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:29:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/rattlesnake.png
-[17:29:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_1.png
-[17:29:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
-[17:29:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
-[17:29:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/octopus_east_pacific_red.png
-[17:30:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/coyote_hostile.png
-[17:30:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_moray.png
-[17:30:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/kangaroo.png
-[17:30:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/jerboa.png
-[17:30:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:30:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
-[17:30:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeletonmex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:30:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:31:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/lamprey_brown.png
-[17:31:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
-[17:31:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
-[17:31:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
-[17:31:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:31:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/kangaroo.png
-[17:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
-[17:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/flying_fish_yellow.png
-[17:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/flying_fish_purple.png
-[17:31:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_snowflake.png
-[17:31:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/lamprey_spotted.png
-[17:31:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:31:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:31:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:32:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:32:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
-[17:32:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
-[17:32:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_0.png
-[17:32:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
-[17:32:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/crab_pink.png
-[17:32:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[17:32:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_moray.png
-[17:32:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:32:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_dragon.png
-[17:33:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:33:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:33:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:34:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/turkey_2.png
-[17:34:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_swallowtail.png
-[17:34:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
-[17:34:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[17:34:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[17:34:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for fossil:textures/entity_icon/nautilus/texturemap.png
-[17:34:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:34:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:34:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/boar_gray.png
-[17:34:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/pheasant_1.png
-[17:34:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seal.png
-[17:34:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_red_admiral.png
-[17:34:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/platypus.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_purple_emperor.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_monarch.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_sulphur.png
-[17:36:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[17:36:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:36:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:36:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:36:57] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/thornshell.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
-[17:37:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
-[17:37:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_morpho.png
-[17:37:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_freshwater_silver.png
-[17:37:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/boar_gray.png
-[17:37:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/thornshell.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_sulphur.png
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_red_admiral.png
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_red_eared.png
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_green.png
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[17:37:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:37:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[17:37:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seagull.png
-[17:37:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
-[17:37:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
-[17:37:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
-[17:37:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
-[17:37:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_ribbon.png
-[17:37:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
-[17:37:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_morpho.png
-[17:37:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_freshwater_silver.png
-[17:37:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
-[17:37:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_black.png
-[17:38:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[17:38:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
-[17:38:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
-[17:38:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
-[17:38:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[17:38:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/lamprey_yellow.png
-[17:38:41] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:38:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/overlay/terrapin_with_overlays.png
-[17:38:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_freshwater_longfin.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/shark_tiger.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/shark_blue.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_conger.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seal.png
-[17:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_small.png
-[17:38:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:38:56] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:39:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:39:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark_depressurized.png
-[17:39:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_dragon.png
-[17:39:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_brown.png
-[17:39:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_snowflake.png
-[17:39:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:39:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/deer_3.png
-[17:39:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/badger_european.png
-[17:39:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_swallowtail.png
-[17:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_monarch.png
-[17:40:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[17:40:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/turkey_3.png
-[17:40:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
-[17:40:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
-[17:40:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:40:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/brownbear.png
-[17:40:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[17:40:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_swallowtail.png
-[17:40:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/badger_european.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/turkey_3.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/brownbear.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/blackbear_black.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_monarch.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_sulphur.png
-[17:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[17:41:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
-[17:41:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[17:41:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/pheasant_1.png
-[17:41:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[17:41:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
-[17:41:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:41:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:41:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_purple_emperor.png
-[17:41:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/seagull.png
-[17:41:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[17:41:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[17:42:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_moray.png
-[17:42:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[17:42:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
-[17:42:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/pheasant_2.png
-[17:42:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
-[17:42:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
-[17:42:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:42:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:42:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:42:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
-[17:42:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:42:56] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:43:23] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[17:43:33] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[17:44:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:45:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/frilled_shark.png
-[17:45:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:46:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:47:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:47:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flutter.png
-[17:48:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cave_centipede.png
-[17:49:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
-[17:49:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:49:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
-[17:49:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:49:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flutter.png
-[17:49:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:49:33] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:50:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:51:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:51:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_0.png
-[17:51:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
-[17:51:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/crab_pink.png
-[17:51:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_sulphur.png
-[17:51:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiesinabarrel.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[17:51:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_conger.png
-[17:51:35] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\mp\offline\minecraft:overworld
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[15:39:09] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[15:39:09] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 208.81ms
+[15:39:13] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:39:13] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[15:39:13] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[15:39:13] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: D:\MinecraftCurseforge\Instances\Survie%20de%20fou%20malade\mods\journeymap-1.18.2-5.9.8-forge.jar\assets\journeymap\theme\flat
+[15:39:13] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[15:39:13] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 16.24ms
+[15:39:36] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:39:58] [Render thread/INFO] [ChatLog] 
+[15:39:59] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:39:59] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[15:39:59] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\waypoints
+[15:39:59] [Render thread/INFO] [JourneymapClient] Mapping started in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\lobby~mining_dimension. Memory: 7408MB total, 1343MB free 
+[15:51:23] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\lobby:mining_dimension
+[15:51:25] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:51:25] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\waypoints
+[15:51:25] [Render thread/INFO] [JourneymapClient] Mapping started in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\sp\Surviee\overworld. Memory: 7408MB total, 3875MB free 
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/shark_tiger.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_0.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
+[15:51:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
+[15:51:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[15:51:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_dragon.png
+[15:51:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
+[15:52:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
+[15:53:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
+[15:55:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
+[15:57:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for guardvillagers:textures/entity_icon/guard/guard_0.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_dragon.png
+[15:57:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
+[15:59:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/carbuncle_wild_orange.png
+[16:00:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
+[16:00:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[16:00:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:00:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_conger.png
+[16:00:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/eel_saltwater_ribbon.png
+[16:01:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
+[16:01:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/pheasant_2.png
+[16:01:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:02:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/shark_bull.png
+[16:03:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[16:03:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/packhunter.png
+[16:05:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[16:05:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:05:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
+[16:05:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:05:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[16:05:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[16:05:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[16:05:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[16:05:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[16:05:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/butterfly_red_admiral.png
+[16:05:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:05:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bloodygadfly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:06:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:06:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[16:06:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/stalker_angry.png
+[16:06:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bloodygadfly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:06:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:06:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[16:06:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[16:06:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[16:06:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_crown.png
+[16:06:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_moon.png
+[16:06:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_white_spotted.png
+[16:06:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/nautilus.png
+[16:06:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:07:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_barrel.png
+[16:07:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_purple_striped.png
+[16:07:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for betteranimalsplus:textures/entity_icon/jellyfish_japanese_sea_nettle.png
+[16:07:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[16:07:37] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\MinecraftCurseforge\Instances\Survie de fou malade\journeymap\data\mp\offline\minecraft:overworld
