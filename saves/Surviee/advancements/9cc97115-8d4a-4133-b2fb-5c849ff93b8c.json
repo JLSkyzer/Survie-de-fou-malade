@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "electrodynamics:raworelead": {
+    "criteria": {
+      "HasRawOre": "2025-06-12 21:48:51 +0200"
+    },
+    "done": true
+  },
   "mcwfences:recipes/jungle": {
     "criteria": {
       "has_jungle": "2025-02-03 22:21:17 +0100"
@@ -820,6 +826,12 @@
   "lootr:1barrel": {
     "criteria": {
       "opened_barrel": "2025-02-04 17:35:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-06-12 21:35:13 +0200"
     },
     "done": true
   },

@@ -44,5 +44,6 @@
 #4D3 minecraft:swamp
 #169 minecraft:taiga
 #2B7 minecraft:warm_ocean
+#628 minecraft:warped_forest
 #579 minecraft:windswept_savanna
 #1C9 minecraft:wooded_badlands
