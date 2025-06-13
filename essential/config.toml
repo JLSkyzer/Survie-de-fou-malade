@@ -5,6 +5,7 @@
 		timestamps_format = 0
 		streamer_mode = false
 		modcore_warning = true
+		replace_window_title = true
 
 	[general.online_status]
 		show_essential_indicator_on_tab = true
@@ -49,7 +50,7 @@
 	[notifications.general]
 		disable_all_notifications = false
 		host_world_ip_warning = true
-		update_notifications = true
+		update_notifications = false
 		screenshot_toast_duration = 1
 		message_sound = true
 		online_friend_alert = true
@@ -81,6 +82,9 @@
 		toggle_to_zoom = false
 		smooth_camera_when_zoomed = false
 
+	[quality_of_life.nameplate]
+		show_my_nameplate_in_third-person = true
+
 	[quality_of_life.screenshots]
 		vanilla_screenshot_message = false
 		"screenshot_quick_action_#2_-_top_right" = 2
@@ -97,6 +101,7 @@
 [cosmetics]
 
 	[cosmetics.general]
+		hide_cosmetic_particles_in_first_person = false
 		hide_cosmetics_on_server_skins = false
 		disable_cosmetics = false
 		"cosmetic_&_armor_conflict_-_on_myself" = 0
