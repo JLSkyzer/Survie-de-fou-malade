@@ -9,5 +9,6 @@
   "differentMirrorsConnect": false,
   "mobsSitOnChairs": true,
   "renderImmersivePortalsMirrors": true,
-  "spawnImmersivePortalsMirror": true
+  "spawnImmersivePortalsMirror": true,
+  "disableGeneratingScreen": false
 }

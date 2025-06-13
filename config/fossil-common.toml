@@ -1,7 +1,3 @@
-#True if the Custom Main Menu should be enabled
-customMainMenu = true
-#True if skull helmet and ancient helmet should render overlays like vanilla pumpkin
-helmetOverlays = true
 #How often ferns try to grow. Higher number = less growth
 #Range: 1 ~ 1000000
 fernTickRate = 2
@@ -23,8 +19,6 @@ fernTickRate = 2
 	generateAztecWeaponShops = true
 	#True if Moai Statues are to generate naturally
 	generateMoai = true
-	#True if Tar Pits are to generate naturally. This only affects the small tar lakes without tent
-	generateTarPits = true
 	#True if Volcano Biomes are to generate naturally
 	generateVolcanoBiome = true
 	#Rarity of Fossil ore. Higher number = more tries per chunk
@@ -39,9 +33,6 @@ fernTickRate = 2
 	#Minimum number of chunks between Ship Structures
 	#Range: 1 ~ 100000000
 	hellShipSeparation = 5
-	#Rarity of Tar Pits. Higher number = more rare
-	#Range: 1 ~ 100000000
-	tarPitRarity = 900
 	#Rarity of Moai Statues. Higher number = more rare
 	#Range: 1 ~ 100000000
 	moaiRarity = 400
@@ -75,12 +66,10 @@ fernTickRate = 2
 	#Sturgeon Spawn Weight. Higher number = more common
 	#Range: 0 ~ 100000000
 	sturgeonSpawnWeight = 5
+	#True if fish spawned via fish egg item should never despawn
+	fishArePersistent = true
 
 ["Mob Config"]
-	#True if Dilophosaurus should be feathered
-	featheredDilo = false
-	#True if Dryosaurus should be feathered
-	featheredDryo = false
 	#True if Dinosaurs can be healed by hand feeding it food
 	healingDinos = true
 	#True if Dinosaurs have hunger
