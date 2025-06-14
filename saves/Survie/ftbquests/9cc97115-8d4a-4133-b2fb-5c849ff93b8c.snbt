@@ -1,0 +1,29 @@
+{
+	version: 1
+	uuid: "9cc971158d4a4133b2fb5c849ff93b8c"
+	name: "JLSkyzer"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: {
+		7DD5234C79F10421: 1
+	}
+	started: {
+		630BFDDD2A806F83: 1749913350770L
+		70113A5F63C9D097: 1749913350770L
+		0000000000000001: 1749913350770L
+		7DD5234C79F10421: 1749913350770L
+	}
+	completed: {
+		630BFDDD2A806F83: 1749913350770L
+		7DD5234C79F10421: 1749913350770L
+	}
+	claimed_rewards: {
+		"9cc971158d4a4133b2fb5c849ff93b8c:50A6AE83A90EA8D6": 1749917241789L
+		"9cc971158d4a4133b2fb5c849ff93b8c:61DEAE53B0F56B1F": 1749917241790L
+		"9cc971158d4a4133b2fb5c849ff93b8c:6370A6D19DF2040B": 1749917241795L
+	}
+	pinned_quests: [ ]
+}
