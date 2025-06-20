@@ -1,0 +1,16 @@
+filename = 'EnchantingInfuser-v3.3.3-1.18.2-Forge.jar'
+name = 'Enchanting Infuser [Forge & Fabric]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'db64547c4c85a6748d3c9db345d25af21b2346c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4001502
+project-id = 551151

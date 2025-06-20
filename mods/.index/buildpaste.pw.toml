@@ -1,0 +1,16 @@
+filename = 'BuildPasteMod-1.18v1.8.3.1.jar'
+name = 'BuildPaste - Instant Structures'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aa92f025d56076a5a1208ff33171535ec60b447b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5361598
+project-id = 432036

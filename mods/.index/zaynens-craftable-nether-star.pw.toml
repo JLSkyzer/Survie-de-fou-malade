@@ -1,0 +1,16 @@
+filename = 'zaynens_craftable_nether_star_mod_1.18.2.jar'
+name = "Zaynen's Craftable Nether Star Mod"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'efcccb18f336a454ea924d3d5cf30bf3bf429e64'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3950353
+project-id = 649917

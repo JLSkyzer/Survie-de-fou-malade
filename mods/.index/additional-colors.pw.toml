@@ -1,0 +1,16 @@
+filename = 'additionalcolors-1.18.2-2.0.0.0-forge.jar'
+name = 'Additional Colors'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c4d1918d2e02ff364a62a1a95722aa4e4fa26978'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4729812
+project-id = 430387

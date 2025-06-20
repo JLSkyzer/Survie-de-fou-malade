@@ -1,0 +1,16 @@
+filename = 'Simply Loot Bags-1.18.2.jar'
+name = 'Simply Loot Bags'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '39bd5298bd37e48c24c85ba3648538fd0d95c18e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4530162
+project-id = 859338

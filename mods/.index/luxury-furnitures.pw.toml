@@ -1,0 +1,16 @@
+filename = 'Luxury Furnitures 2.29.0 1.18.2.jar'
+name = 'Luxury Furnitures'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5ff0e753d9d1efccda0ffbb4a2a42bfed858ef07'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5759276
+project-id = 579557

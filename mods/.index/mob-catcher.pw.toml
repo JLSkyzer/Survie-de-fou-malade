@@ -1,0 +1,16 @@
+filename = 'mobcatcher-1.18.2-4.0.1.jar'
+name = 'Mob Catcher'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1eb9b33ebd1f072f932aa41abbbc7d24861679ea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4083095
+project-id = 324347

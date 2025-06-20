@@ -1,0 +1,16 @@
+filename = 'mvs-3.0.8-1.18.2.jar'
+name = "MVS - Moog's Voyager Structures"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8db153ec6b9ecb3f3c14b646604a9b81ced68687'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4132462
+project-id = 656977

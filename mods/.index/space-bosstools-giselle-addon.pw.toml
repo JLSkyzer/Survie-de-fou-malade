@@ -1,0 +1,16 @@
+filename = 'Beyond-Earth-Giselle-Addon-1.18.2-2.20.jar'
+name = 'Beyond Earth: Giselle Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c373a9be0d67ff625716063b6e047104bbb75dd9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4251889
+project-id = 546554

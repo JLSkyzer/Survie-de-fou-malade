@@ -1,0 +1,16 @@
+filename = 'cupboard-1.18.2-1.5.jar'
+name = 'Cupboard'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ab9e272cdc6051b67eb1d6cec8abc0303bc9d72b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4691988
+project-id = 326652

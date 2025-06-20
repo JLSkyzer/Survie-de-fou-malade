@@ -1,0 +1,16 @@
+filename = 'awesomedungeon-forge-1.18.2-3.2.0.jar'
+name = 'Awesome Dungeon - Forge'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a8af7f1f85d604577113ff49d8c72811b0b01af5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4494349
+project-id = 531320

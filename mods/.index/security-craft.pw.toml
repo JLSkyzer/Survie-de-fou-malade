@@ -1,0 +1,16 @@
+filename = '[1.18.2] SecurityCraft v1.10.jar'
+name = 'Security Craft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '79e857568c559d7962774553d9f6b357c034429a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6485053
+project-id = 64760

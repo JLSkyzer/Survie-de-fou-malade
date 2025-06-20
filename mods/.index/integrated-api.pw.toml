@@ -1,0 +1,16 @@
+filename = 'integrated_api_forge-1.2.8+1.18.2.jar'
+name = 'Integrated API'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7629e84704de20f13cd9402b2ae2338b678fe226'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5187492
+project-id = 817709

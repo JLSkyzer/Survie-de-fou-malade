@@ -1,0 +1,16 @@
+filename = 'createframed-1.18.2-1.4.5.1.jar'
+name = 'Create: Framed'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1db2019998291b8a8a3b7a4f275d1b4161966f04'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5602550
+project-id = 953126

@@ -1,0 +1,16 @@
+filename = 'nfm-2022.10.27-1.18.2.jar'
+name = 'Nosiphus Furniture Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '465d5a5f2ba63e45b77ae7cee85b9a2ee73a1632'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4054056
+project-id = 593876

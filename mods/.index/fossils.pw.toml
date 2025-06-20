@@ -1,0 +1,16 @@
+filename = 'fossil-forge-1.18.2-9.1.5.1.jar'
+name = 'Fossils and Archeology: Revival'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fe8ac58ccb6b97a4017558871ff9fcce7563efb4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6562578
+project-id = 223908

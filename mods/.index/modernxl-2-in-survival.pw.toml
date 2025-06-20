@@ -1,0 +1,16 @@
+filename = 'ModernxlSurvival_1.3.2_v1.18.2.jar'
+name = 'Modernxl 2 furniture mod: In Survival !'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '95caad25ae1753b0cb3b9ca20b8cd8a19e9376b5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5865405
+project-id = 944085

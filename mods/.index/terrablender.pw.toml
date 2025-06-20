@@ -1,0 +1,16 @@
+filename = 'TerraBlender-forge-1.18.2-1.2.0.126.jar'
+name = 'TerraBlender (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b8a025042f55dc78d38a319bd71e3901e9d00331'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3957976
+project-id = 563928

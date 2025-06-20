@@ -1,0 +1,16 @@
+filename = 'questsadditions-1.18.2-1.4.2.jar'
+name = 'Quests Additions (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8de3e83d0b3606e95cdbc8d47a4a4713d146fd98'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4525496
+project-id = 580129

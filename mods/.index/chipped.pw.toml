@@ -1,0 +1,16 @@
+filename = 'chipped-forge-1.18.2-2.0.1.jar'
+name = 'Chipped'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9ee8bc9cf7a95a48447b4f116ed71232610b2d0b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4293291
+project-id = 456956

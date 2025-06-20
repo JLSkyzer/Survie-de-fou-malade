@@ -1,0 +1,16 @@
+filename = 'oceanworld-1.0.7.jar'
+name = 'Ocean World'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '674d7a910ce82b07348abf23d034c83c96813425'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4577653
+project-id = 640359

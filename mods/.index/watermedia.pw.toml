@@ -1,0 +1,16 @@
+filename = 'watermedia-2.1.25.jar'
+name = 'WATERMeDIA: Multimedia API'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.16.5', '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '76747f5509c7c2adea22931230207669c9ee87d2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6616372
+project-id = 869524

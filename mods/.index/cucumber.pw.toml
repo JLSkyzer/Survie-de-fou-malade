@@ -1,0 +1,16 @@
+filename = 'Cucumber-1.18.2-5.1.5.jar'
+name = 'Cucumber Library'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3e14059ed612694fb1a22a7feb05d96b2c6f44ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4831151
+project-id = 272335

@@ -1,0 +1,16 @@
+filename = 'AmpereCraft 0.3 Forge 1.18.jar'
+name = 'Ampere Craft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c0857a4fc7f57a99884bc705f132ef19124dc9e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4031001
+project-id = 664589

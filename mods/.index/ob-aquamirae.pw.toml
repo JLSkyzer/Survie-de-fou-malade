@@ -1,0 +1,16 @@
+filename = 'aquamirae-5.api10.jar'
+name = 'Aquamirae (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18-Snapshot', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f66f4d5a27d51825c7f7fe46f1354e993bafe5b4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4259348
+project-id = 536254

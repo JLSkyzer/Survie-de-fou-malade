@@ -1,0 +1,16 @@
+filename = 'FastFurnace-1.18.2-6.0.3.jar'
+name = 'FastFurnace'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e1813c2e5202a3a6c920dd70bad65c4590fbd7fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3717883
+project-id = 299540

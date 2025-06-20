@@ -1,0 +1,16 @@
+filename = 'roadstuff-1.18.2-6.0.2.jar'
+name = 'Road Stuff'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'afc39f2f0c55a6827fe0b26b9288ab894b396ede'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3952258
+project-id = 238984

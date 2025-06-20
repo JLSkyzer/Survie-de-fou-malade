@@ -1,0 +1,16 @@
+filename = 'selene-1.18.2-1.17.17.jar'
+name = 'Moonlight Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f1aa7adeb75e99d20a3e187d099d987dc42ea9d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6047192
+project-id = 499980

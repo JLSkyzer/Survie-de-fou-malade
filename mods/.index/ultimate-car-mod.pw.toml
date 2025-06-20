@@ -1,0 +1,16 @@
+filename = 'car-1.18.2-1.0.1.jar'
+name = 'Ultimate Car Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bc3a58149b89ad9bff8ee60499398588ad6df50'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3707486
+project-id = 267458
