@@ -15,7 +15,7 @@
   "forge:ingots/mithril": "null",
   "forge:ingots/bronze": "alltheores:bronze_ingot",
   "forge:ingots/lead": "alltheores:lead_ingot",
-  "forge:ingots/graphite": "null",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:ingots/nickel": "alltheores:nickel_ingot",
   "forge:gems/sapphire": "alltheores:sapphire",
   "forge:ingots/iridium": "alltheores:iridium_ingot",

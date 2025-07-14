@@ -17,18 +17,6 @@
     },
     "done": true
   },
-  "pfm:grant_book_on_first_join": {
-    "criteria": {
-      "tick": "2025-02-05 21:15:31 +0100"
-    },
-    "done": true
-  },
-  "electrodynamics:dispenseguidebook": {
-    "criteria": {
-      "SpawnIn": "2025-02-05 21:15:50 +0100"
-    },
-    "done": true
-  },
   "mcwfences:recipes/jungle": {
     "criteria": {
       "has_jungle": "2025-02-05 21:15:31 +0100"
@@ -74,6 +62,12 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2025-02-05 21:15:50 +0100"
+    },
+    "done": true
+  },
+  "compactvoidminers:void_miner": {
+    "criteria": {
+      "void_miner": "2025-07-05 23:09:21 +0200"
     },
     "done": true
   },
@@ -125,6 +119,12 @@
     },
     "done": false
   },
+  "mcwfences:recipes/mud_brick": {
+    "criteria": {
+      "has_qq": "2025-07-05 23:09:21 +0200"
+    },
+    "done": true
+  },
   "betteranimalsplus:bad_fox": {
     "criteria": {
       "no_bam": "2025-02-05 21:15:49 +0100"
@@ -152,6 +152,12 @@
   "mcwroofs:recipes/oak": {
     "criteria": {
       "has_planks": "2025-02-05 21:18:40 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/metal": {
+    "criteria": {
+      "has_deepslate": "2025-07-05 23:09:21 +0200"
     },
     "done": true
   },
@@ -199,6 +205,7 @@
   },
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
+      "grass": "2025-07-05 23:20:22 +0200",
       "dirt": "2025-02-05 21:27:32 +0100"
     },
     "done": false
